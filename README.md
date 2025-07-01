@@ -1,31 +1,49 @@
-# ❌ X-Clone - MERN Stack Social Media Platform
+🔗 [Click here to view the live project]([https://your-live-url.com](https://twitter-clone-hscd.onrender.com/))
 
-A modern **X (formerly Twitter)** clone built with the powerful **MERN Stack** (MongoDB, Express.js, React.js, Node.js). This clone features responsive design, dynamic user interactions, and clean UI using **Tailwind CSS** and **DaisyUI**.
+<p align="center">
+  <img src="https://img.shields.io/badge/MERN-Stack-blueviolet?style=for-the-badge&logo=mongodb&logoColor=white" alt="MERN Badge"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-UI-blue?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind Badge"/>
+  <img src="https://img.shields.io/badge/DaisyUI-Tailwind-rose?style=for-the-badge&logo=daisyui&logoColor=white" alt="DaisyUI Badge"/>
+</p>
+
+<h1 align="center">❌ X-Clone</h1>
+<h3 align="center">A MERN Stack Twitter/X-inspired Social Media App</h3>
+
+<p align="center">
+  Built with MongoDB, Express.js, React.js, Node.js, Tailwind CSS, and DaisyUI.
+</p>
 
 ---
 
-## 🚀 Features
+## 🧩 Tech Stack
 
-- ✅ Authentication (Signup/Login)
-- 🧾 Create, like, and delete posts (Tweets)
-- 💬 Comment system
-- 🧑‍🤝‍🧑 Follow/Unfollow users
-- 🔍 Explore trending content
-- 📱 Responsive UI (Mobile-first)
-- 🎨 Styled with Tailwind CSS + DaisyUI
+<p align="center">
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DBFB?style=for-the-badge&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38b2ac?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DaisyUI-F472B6?style=for-the-badge&logo=daisyui&logoColor=white"/>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-| Tech         | Description                            |
-|--------------|----------------------------------------|
-| **MongoDB**  | NoSQL database for storing user data and posts |
-| **Express.js**| Backend framework for building RESTful APIs |
-| **React.js** | Frontend library for UI development    |
-| **Node.js**  | Runtime for server-side JavaScript     |
-| **Tailwind CSS** | Utility-first CSS framework for styling |
-| **DaisyUI**  | UI component library based on Tailwind |
+- 🔐 Authentication (Sign up / Login / Logout)
+- ✏️ Tweet creation and deletion
+- ❤️ Like and 💬 Comment on posts
+- 🧑‍🤝‍🧑 Follow/Unfollow other users
+- 🔎 Explore trending posts
+- 🌙 Light/Dark mode UI (via DaisyUI)
+- 📱 Fully responsive and mobile-friendly
+
+---
+You Can Visit The Website :
+Live Url:
+## 🌐 Live Demo
+
+🔗 [Click here to view the live project]([https://your-live-url.com](https://twitter-clone-hscd.onrender.com/))
 
 ---
 
