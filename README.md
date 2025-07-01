@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/DaisyUI-Tailwind-rose?style=for-the-badge&logo=daisyui&logoColor=white" alt="DaisyUI Badge"/>
 </p>
 
-<h1 align="center">❌ X-Clone</h1>
+<h1 align="center"> X-Clone</h1>
 <h3 align="center">A MERN Stack Twitter/X-inspired Social Media App</h3>
 
 <p align="center">
@@ -81,3 +81,30 @@ npm install
 # 3. Install Frontend dependencies
 cd ../client
 npm install
+
+🧩 Environment Variables
+Create a .env file inside the /server directory with the following content:
+
+env
+Copy
+Edit
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+
+▶️ Run the App Locally
+bash
+Copy
+Edit
+# In one terminal, run backend
+cd server
+npm run dev
+
+# In another terminal, run frontend
+cd client
+npm run dev
