@@ -5,7 +5,7 @@ import bcrypt from "bcryptjs";
 export const signup = async (req, res) => {
 	try {
 		const { fullName, username, email, password } = req.body;
-		console.log("Received email:", email);
+		// console.log("Received email:", email);
 
 		if (!email || typeof email !== "string") {
 			return res.status(400).json({ error: "Email is required and must be a string" });
@@ -16,7 +16,6 @@ export const signup = async (req, res) => {
 			return res.status(400).json({ error: "Invalid email format" });
 		}
 
-		// Optimize DB Query: Check if email or username exists in one call
 		const existingUser = await User.findOne({ $or: [{ username }, { email }] });
 		if (existingUser) {
 			if (existingUser.username === username) {
