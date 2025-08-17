@@ -69,7 +69,7 @@
 
 ### 📦 Setup Instructions
 
-```bash
+
 # 1. Clone the repository
 git clone https://github.com/your-username/x-clone.git
 cd x-clone
@@ -86,8 +86,7 @@ npm install
 Create a .env file inside the /server directory with the following content:
 
 env
-Copy
-Edit
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -98,9 +97,7 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 
 ▶️ Run the App Locally
-bash
-Copy
-Edit
+
 # In one terminal, run backend
 cd server
 npm run dev
